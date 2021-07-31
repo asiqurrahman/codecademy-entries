@@ -41,7 +41,7 @@ Defines the number of columns a cell should span.
 | :------: | :------: | 
 | Dev 1  | Sonny   | 
 | Dev 2   | Nomnom   |
-|| 
+|Span <td colspan=2>Takes up two rows 
 
 
 The `border` property accepts one or more of the following properties as values:
