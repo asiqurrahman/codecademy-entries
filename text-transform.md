@@ -25,11 +25,8 @@ text-overflow: <value>;
 The following values can be be appplied to the `text-transform` property:
 
 - `none`: Default. The text renders as is.
-
 - `capitalize`: Transforms the first character of every word to uppercase. 
-
 - `uppercase`: Transforms all characters to uppercase.
-
 - `lowercase`: Transforms all characters to lowercase.
 
 ## Example 1

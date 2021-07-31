@@ -25,15 +25,11 @@ text-overflow: 2px 4px 10px blue;
 The shadow is created with a combination of X and Y offsets from the element, blur radius, and color:
 
 - value 1: Offsets the X-axis(required).
-
 - Value 2: Offsets the Y-axis(required). 
-
 - Value 3: Sets the blur radious(optional).
-
 - Value 4: Sets the color of the shadow(optional).
 
 **Note:** You can add multiple text shadows by comma separating. 
-
 
 ## Example 1
 

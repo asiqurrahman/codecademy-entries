@@ -1,5 +1,5 @@
 ---
-Title: "text-transform"
+Title: "@font-face"
 Subjects:
   - "Web Development"
   - "Web Design"
@@ -14,30 +14,43 @@ Catalog Content:
 
 ## Definition 
 
-Specifies how to capitalize an element's text. 
+Specifies a custom font to be used to display text. 
 
 ## Syntax
 
+The `@font-face` rule allows us to use custom fonts instead of just "web-safe" fonts. We can give the font a name then point to the file in which the font is stored.
+
 ```css
-text-overflow: <value>;
+@font-face {
+  font-family: /*Font Name */;
+  src: url(" ") /*Link To Font*/;
+}
 ```
 
-The following values can be be appplied to the `text-transform` property:
-
-- `none`: Default. The text renders as is.
-
-- `capitalize`: Transforms the first character of every word to uppercase. 
-
-- `uppercase`: Transforms all characters to uppercase.
-
-- `lowercase`: Transforms all characters to lowercase.
+**Note:** The name of the file in which the font is stored, must end in a supported font format(e.g. *custom_font.woff2*, *custom_font.ttf*). 
 
 ## Example 1
 
-Tranforming every character of a text block to uppercase.
+Specifying a font called "uniqueFont" then linking the url to the font folder.
 
 ```css
-p {
-  text-transform: uppercase; 
+@font-face {
+  font-family: uniqueFont;
+  src: url("unique_font.woff") 
+}
+```
+
+## Example 2
+
+Creating a custom font called "superFont" then applying the font to a `div`.
+
+```css
+@font-face {
+  font-family: superFont;
+  src: url("super_font.ttf") 
+}
+
+div {
+  font-family: superFont;
 }
 ```
