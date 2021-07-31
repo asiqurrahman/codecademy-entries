@@ -37,7 +37,7 @@ Defines the number of columns a cell should span.
   </tr>
 </table>
 ```
-![black box above grey box](colspan.PNG)
+![colspan row](colspan.png)
 
 
 The `border` property accepts one or more of the following properties as values:
